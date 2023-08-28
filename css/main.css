@@ -1,44 +1,112 @@
-/* ====================================
-// css variables
-// ==================================== */
-
-:root {
-}
-
-/* ====================================
-// reset rules
-// ==================================== */
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 16px;
-}
-
 body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-
-  font-size: 1rem;
-  line-height: 1.5rem;
+  max-width: 320px;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 16px;
+  margin: 0 auto;
 }
 
-a {
-  color: inherit;
+img {
+  max-width: 100%;
+  display: block;
 }
 
-img,
-video {
-  max-inline-size: 100%;
-  block-size: auto;
-  vertical-align: text-top;
+nav {
+  font-family: 'Libre Franklin', sans-serif;
+  display:flex ;
+  justify-content: center;
+  margin: 10px 20px;
 }
 
-/* ====================================
-// base rules
-// ==================================== */
+nav a{
+  margin: 0;
+  padding: 10px;
+  color: black;
+}
+
+main { 
+  background-color: #ebede7;
+  padding-bottom: 20px;
+}
+
+
+.light {
+  background-color: white;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: 'Libre Franklin', sans-serif; 
+  border: solid 2px red;
+  border-radius: 20px;
+  background-color: red;
+  padding: 5px 10px;
+}
+
+main p {
+  text-align: center;
+}
+
+.main-recipe-title  {
+  font-size: 20px;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.light h2 {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+}
+
+h3 { 
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+hr {
+  margin: 0 10px ;
+  border: solid 1px black;
+}
+
+.carte {
+  margin: 20px;
+  border: solid grey 1px;
+  align-content: center;
+  background-color: white;
+}
+
+.carte p {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px 20px;
+}
+
+footer h2 {
+  font-size: 20px;
+}
+
+footer a {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+footer a:visited{
+  color:white;
+}
+
+/* font-family: 'Libre Franklin', sans-serif; */
